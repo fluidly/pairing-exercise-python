@@ -5,7 +5,7 @@ This is a pairing exercise for prospective full-stack/back-end developers with a
 
 The candidate can guide the exercise and do as much as is feasible within the time limit (~30-35 mins).
 
-### Goal
+## Goal
 
 Process a list of invoices and produce the following statistics:
 
