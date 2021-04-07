@@ -12,4 +12,4 @@ flake8 = "*"
 freezegun = "*"
 
 [scripts]
-format = "bash -c \"autoflake --remove-all-unused-imports -i -r . && isort -rc . && black .\""
+format = "bash -c \"autoflake --remove-all-unused-imports -i -r . && isort . && black .\""
