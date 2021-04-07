@@ -18,3 +18,7 @@ Process a list of invoices and produce the following statistics:
 
 * `pipenv install --dev`
 * `pipenv run pytest`
+
+Alternatively, if `pipenv` is not installed:
+
+* `pip install pytest`
