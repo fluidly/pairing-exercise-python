@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+black = "==20.8b1"
+autoflake = "*"
+isort = "*"
+flake8 = "*"
+freezegun = "*"
+
+[scripts]
+format = "bash -c \"autoflake --remove-all-unused-imports -i -r . && isort -rc . && black .\""
