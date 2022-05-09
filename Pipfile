@@ -5,7 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pytest = "*"
-black = "==20.8b1"
+black = "*"
 autoflake = "*"
 isort = "*"
 flake8 = "*"
